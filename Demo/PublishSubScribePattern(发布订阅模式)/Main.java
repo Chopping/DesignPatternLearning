@@ -5,6 +5,9 @@ import henu.chinaboy.xb.NotifyObject.DeskSecretary;
 import henu.chinaboy.xb.Observer.FightLandlordEmployee;
 import henu.chinaboy.xb.Observer.WatchNBAEmployee;
 
+/**
+ * 发布订阅模式Demo，经典的发布订阅会存在通知者依赖订阅者的情况，但是这个Demo利用了类似C#中的委托的方式，将具体类的操作再进一步抽象，从而回避了这种依赖
+ */
 public class Main {
 
     public static void main(String[] args) {
